@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First_task</title>
+    <link rel="icon" href="">
+    <link rel="stylesheet" href="./css/logical.css">
+    <script src="./js/js.js"></script>
+    </head>
+    
+    <body class="body">
+        <img class="background" src="./assets/back.jpg" alt="sdfs">
+        
+
+        <div class="inp">
+            <img src="./assets/user.svg" alt="user.svg" class="usrimg">
+            <span class="username"><h2>Michael</h2></span>
+            <span class="pwdBut"><input type="password" id="numb" class="pwd" maxlength="4" placeholder="password" >
+            <button type="button" class="but" onclick="myFunction()">→</button></span>
+        </div>
+
+        <div id="topleft"><img src="./assets/diary1.jpg" alt="diary" class="diary"></div>
+
+        <div id="topright">
+            <div class="container">
+                  <p>Kate starts working on this case by first looking at his diary which was found near Michael's body. In the diary Kate finds a binary number which has been marked as password, but the password slot of his laptop accepts only four digits. The first step is to unlock the laptop with the computer science knowledge.</p>
+                  
+            </div>
+            <button class="button" onclick="expand()">View task</button>
+            <script>
+                function expand() {
+                  const container = document.querySelector('.container');
+                  container.classList.toggle('expanded');
+                }
+              </script>
+        </div>
+
+
+        <div id="toppage" onclick="toppageclick()">
+            <img src="./assets/back.jpg" alt="screen" class="screen">
+            <div class="topdiv">
+                <h2 class="hh1">Task 1:</h2>
+                <p class="q1">Kate starts working on this case by first looking at Michael's diary which was found near Michael's body. In the diary Kate finds a binary number which has been marked as password, but the password slot of his laptop accepts only four digits. The first step  is to unlock the laptop with the computer science knowledge.</p>
+                <p class="q1" style="margin-top: 100px;color: blue;font-size: medium;">click anywhere to continue</p>
+                
+            </div> 
+        </div>
+        
+      <script>
+        localStorage.setItem("totalScore", 0);
+      </script>
+        
+    </body>
+    
+</html>

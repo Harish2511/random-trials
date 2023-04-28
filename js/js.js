@@ -100,10 +100,10 @@ function cipher(op) {
     alert("Subject : qrsvavgryl gur jebat nafjre");
   }
   if (op == 2) {
-    alert("Subject : ibyhagnel qvfpybfher");
+    alert("Subject : syyrg or ustyaanrg  i");
   }
   if (op == 3) {
-    alert("Subject : syyrg or ustyaanrg  i");
+    alert("Subject : ibyhagnel qvfpybfher");
   }
   if (op == 4) {
     alert("Subject : fudskvv you");
